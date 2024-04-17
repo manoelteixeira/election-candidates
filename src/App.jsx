@@ -1,9 +1,15 @@
+import Navbar from "./Components/navbar/Navbar"
+import List from "./Components/list/List"
+import "./app.scss"
 
 function App() {
 
   return (
     <>
-    <h1>Hello World.</h1>
+    <Navbar/ >
+    <main>
+      <List />
+    </main>
     </>
   )
 }
