@@ -16,7 +16,7 @@ const List = () => {
 
   return (
     <div className="list">
-      {candidateNames.map(name => <Card name={name}/>)}
+      {candidateNames.map((name, i) => <Card name={name} key={i}/>)}
     </div>
   )
 }
