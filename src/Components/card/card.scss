@@ -1,0 +1,21 @@
+.card {
+  width: 250px;
+  height: 300px;
+  display: grid;
+
+  justify-content: center;
+  place-items: center;
+  background-color: #fbfcfb;
+  padding: 20px 40px;
+  border-radius: 30px;
+
+  &__image {
+    width: 150px;
+  }
+
+  &__name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

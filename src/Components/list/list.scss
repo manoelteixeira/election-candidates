@@ -1,0 +1,13 @@
+.list {
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, 250px);
+  //   grid-auto-columns: auto;
+  gap: 30px;
+
+  &__title {
+    width: 100vw;
+  }
+}

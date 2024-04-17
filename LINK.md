@@ -1,1 +1,1 @@
-[MY-APP](https://main--fluffy-naiad-f4a8b9.netlify.app/)
+[MY-APP]()

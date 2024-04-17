@@ -8,7 +8,8 @@ function App() {
     <>
     <Navbar/ >
     <main>
-      <List />
+      <h1>Canditates</h1>
+    <List />
     </main>
     </>
   )
